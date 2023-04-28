@@ -1,0 +1,16 @@
+bin: 所有的shell命令用于和linux交互
+clinet：客户端代码
+    consumer：消费者
+    producer：生产者
+core：核心的代码，broker服务端的代码，是scala写的
+     main/scala 核心的命令
+     main/api  kafka处理网络请求的包,处理生产者和消费者的请求
+     main/cluster 处理集群的包
+     .../controller 选举出来主节点，作为controller，注意和MVC里的不一样
+     .../coordinator 和消费者有关
+     .../log 分布式的日志系统
+     .../message
+stream: 流式处理，目前不流行
+
+
+
